@@ -2,7 +2,9 @@
   "name": "udemy-playwright-course",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "login": "npx playwright test tests/functional/login.spec.ts --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
